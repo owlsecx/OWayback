@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-Wayback Machine Archive Scanner
+
+OWayback is a historical web-intelligence tool that queries the Internet Archive's Wayback Machine to recover a target's historical URLs, snapshots and content changes. It enumerates archived endpoints, surfaces old paths and parameters, and helps reconstruct a site's past attack surface. It runs as a desktop application for authorized OSINT and reconnaissance.
 
 ---
 
 ## ✨ Features
 
-- Wayback CDX archive scanner — pagination, MIME/status filters, interesting files & offline self-test
+
+- Wayback Machine queries for a domain's archived URLs and snapshots
+- Recovery of historical paths, parameters and endpoints
+- Timeline view of content changes across snapshots
+- Filtering of archived results by type and date
+- Export of recovered URLs for further analysis
+- Desktop UI in the OWLSec theme with an offline --self-test
 
 ---
 
@@ -37,8 +44,11 @@ Wayback Machine Archive Scanner
 
 ## 🚀 Usage
 
+
 ```bash
 ./OWayback
+./OWayback --self-test
+./OWayback --help
 ```
 
 ---
