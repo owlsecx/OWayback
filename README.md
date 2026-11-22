@@ -55,7 +55,7 @@ OWayback is a historical web-intelligence tool that queries the Internet Archive
 
 ## 📦 Part of OwlSec Toolkit
 
-This tool is part of the **OwlSec** suite — a collection of 300+ security and privacy tools.
+This tool is part of the **OwlSec** suite — a collection of 275+ security and privacy tools.
 
 🔗 [owlsec.org](https://owlsec.org)
 
